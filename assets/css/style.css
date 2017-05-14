@@ -1,0 +1,83 @@
+body{
+	/*background-color: #3167e2;*/
+	background-image: url("../images/fantasyLand.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:auto;
+	margin-top: 50px;
+	font-family: 'Satisfy', cursive;
+}
+
+button{
+
+}
+
+header{
+	display: inline-block;
+	color: white;
+}
+
+#container{
+	border-radius: 5px;
+	width:600px;
+	background-color: #5196f7;
+	margin:auto;
+	padding:30px;
+}
+
+
+#displayQuestion{
+	width: 400px;
+	font-weight: 400;
+	font-size: 110%;
+	color:white;
+}
+
+#getAnswer{
+
+}
+
+#userAnswer{
+	background-color: black;
+	color:#ff02af; 
+	height: 20px;
+	border-radius: 3px;
+	border:none;
+	margin:5px;
+}
+	
+#submit{
+	height: 20px;
+	background-color: black;
+	font-weight: 700;
+	color:#ff02af;
+	border-radius: 3px;
+	border:none;
+	margin: 5px;
+
+}
+
+#display{
+	color: white;
+}
+
+#answerCheck{
+	color: white;
+}	
+
+#playAgain{
+	height: 20px;
+	font-weight: 700;
+	background-color: #aaaaaa;
+	color:#9800ff;
+	border-radius: 3px;	
+	border: none;
+	margin:5px;
+}
+
+#hint{
+	display: inline-block;
+	width:150px;
+
+	float:right;
+}
