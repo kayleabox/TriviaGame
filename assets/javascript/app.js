@@ -105,14 +105,18 @@ var stopwatch = {
     var correctAnswer= undefined; 
     
     $(document).on("click","#playAgain",function(){
+      $("#answerCheck").html("");
       counter = 0;
       numIncorrect = 0;
       numCorrect = 0;
       $("#getAnswer").html('<input id="userAnswer" type="text"></input>'+
-        '<button id="submit" type="submit">submit</button>');
+        '<button id="submit" type="submit">submit</button>'+
+        '<div id="display>00:15</div>');
       showNewQuestion();
-      stopwatch.reset();
-      stopwatch.start();
+      //stopwatch.reset();
+      //stopwatch.start();
+      $("#playAgain").remove();
+
 
     });
 
