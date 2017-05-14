@@ -109,10 +109,10 @@ var stopwatch = {
       counter = 0;
       numIncorrect = 0;
       numCorrect = 0;
+      showNewQuestion();
       $("#getAnswer").html('<input id="userAnswer" type="text"></input>'+
         '<button id="submit" type="submit">submit</button>'+
-        '<div id="display>00:15</div>');
-      showNewQuestion();
+        '<div id="display">00:15</div>');
       //stopwatch.reset();
       //stopwatch.start();
       $("#playAgain").remove();
